@@ -1,9 +1,9 @@
 %define upstream_name Locale-PO
-%define upstream_version 0.24
+%define upstream_version 0.27
 
 Name:           perl-%{upstream_name}
 Version:        %perl_convert_version %{upstream_version}
-Release:        2
+Release:        1
 Summary:        Perl module for manipulating .po entries from GNU gettext
 License:        GPL+ or Artistic
 Group:          Development/Perl
