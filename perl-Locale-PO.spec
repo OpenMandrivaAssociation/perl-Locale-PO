@@ -7,7 +7,7 @@ Release:        3
 Summary:        Perl module for manipulating .po entries from GNU gettext
 License:        GPL+ or Artistic
 Group:          Development/Perl
-URL:            http://search.cpan.org/dist/Locale-PO/
+URL:            https://search.cpan.org/dist/Locale-PO/
 Source0:        http://search.cpan.org/CPAN/authors/id/C/CO/COSIMO/%{upstream_name}-%{upstream_version}.tar.gz
 BuildArch:      noarch
 BuildRequires:  perl-devel
