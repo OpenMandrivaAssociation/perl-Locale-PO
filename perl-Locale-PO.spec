@@ -10,6 +10,7 @@ Group:          Development/Perl
 URL:            https://search.cpan.org/dist/Locale-PO/
 Source0:        http://search.cpan.org/CPAN/authors/id/C/CO/COSIMO/%{upstream_name}-%{upstream_version}.tar.gz
 BuildArch:      noarch
+BuildRequires:	make
 BuildRequires:  perl-devel
 BuildRequires:  perl(base)
 BuildRequires:  perl(Carp)
