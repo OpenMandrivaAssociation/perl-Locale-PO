@@ -2,13 +2,13 @@
 %define upstream_version 0.27
 
 Name:           perl-%{upstream_name}
-Version:        %perl_convert_version %{upstream_version}
-Release:        3
+Version:        %{upstream_version}
+Release:        4
 Summary:        Perl module for manipulating .po entries from GNU gettext
 License:        GPL+ or Artistic
 Group:          Development/Perl
-URL:            https://search.cpan.org/dist/Locale-PO/
-Source0:        http://search.cpan.org/CPAN/authors/id/C/CO/COSIMO/%{upstream_name}-%{upstream_version}.tar.gz
+URL:            https://metacpan.org/dist/Locale-PO
+Source0:        https://cpan.metacpan.org/authors/id/C/CO/COSIMO/Locale-PO-%{upstream_version}.tar.gz
 BuildArch:      noarch
 BuildRequires:	make
 BuildRequires:  perl-devel
