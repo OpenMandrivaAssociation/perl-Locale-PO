@@ -1,14 +1,12 @@
 %define upstream_name Locale-PO
-%define upstream_version 0.27
-
 Name:           perl-%{upstream_name}
-Version:        %{upstream_version}
-Release:        4
+Version:        0.27
+Release:        5
 Summary:        Perl module for manipulating .po entries from GNU gettext
 License:        GPL+ or Artistic
 Group:          Development/Perl
 URL:            https://metacpan.org/dist/Locale-PO
-Source0:        https://cpan.metacpan.org/authors/id/C/CO/COSIMO/Locale-PO-%{upstream_version}.tar.gz
+Source0:        https://cpan.metacpan.org/authors/id/C/CO/COSIMO/Locale-PO-%{version}.tar.gz
 BuildArch:      noarch
 BuildRequires:	make
 BuildRequires:  perl-devel
@@ -35,7 +33,7 @@ alternative to using emacs po-mode. It provides an object-oriented
 interface in which each entry in a .po file is a Locale::PO object.
 
 %prep
-%setup -qn %{upstream_name}-%{upstream_version}
+%setup -qn %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
